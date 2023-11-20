@@ -8,7 +8,7 @@ import { AppProps } from "next/app";
 // This is the chain your dApp will work on.
 const activeChain = "mumbai";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: any) {
   return (
     <ThirdwebProvider activeChain={activeChain}>
       <Head>
